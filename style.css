@@ -171,7 +171,7 @@ h4{
 .hero{
 	min-height: 100vh;
 	width: 100vw;
-	background:url("images/mainx.png") center/cover no-repeat fixed;
+	background:url("images/main.png") center/cover no-repeat fixed;
 	position: relative;
 }
 
