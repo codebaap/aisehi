@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		
+		<title>Pushp Ratan || Home</title>
+
+		<link rel="stylesheet" type="text/css" href="fontawesome-free-5.15.4-web/css/all.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+<body>
+		<!-- Navigation-Buttons -->
+		<span class="nav-btn" id="nav-btn">
+			<i class="fas fa-bars"></i>
+		</span>
+
+		<!-- navigation -->
+		<nav class="navbar" id="navbar">
+			<div class="navbar-header">
+				<span class="nav-close" id="nav-close">
+					<i class="fas fa-times"></i>
+					</span>
+			</div>
+
+			<ul class="nav-items">
+				<li><a href="index.html" class="nav-link">Home</a></li>
+				<li><a href="project.html" class="nav-link">Project</a></li>
+				<li><a href="about.html" class="nav-link">About</a></li>
+				<li><a href="contact.html" class="nav-link">Contact</a></li>
+			</ul>
+		</nav>
+
+		<!-- Header -->
+		<header class="hero">
+			<div class="banner">
+				<h1 class="hero-name">I'm Pushp</h1>
+				<div class="underline hero-name"></div>
+				<h4 class="hero-designation">Freelance Website Designer</h4>
+				<a href="contact.html" class="hire-btn">Hire Me</a>
+
+				<!-- social icons -->
+				<ul class="social-icons hero-icons">
+					<li>
+						<a href="https://github.com/PushpRatan" target="_blank" class="social-icon" id="github">
+							<i class="fab fa-github"></i>
+						</a>
+					</li>
+
+					<li>
+						<a href="https://linkedin.com/in/pushpratan" target="_blank" class="social-icon" id="linkedin">
+							<i class="fab fa-linkedin"></i>
+						</a>
+					</li>
+				</ul>
+
+			</div>
+		</header>
+		<!-- <div class="content-divider"></div> -->
+
+		<section class="diff-col">
+			<div class="title-cap">
+				<h2 class="my-title">Hi, I'm Pushp. Nice to meet you.</h2>
+				<h3 class="title-des">I am a Web-Developer specialized in designing custom themes, user interfaces, navigation menus etc. If you're business seeking a web presence or are looking to hire, contact me here.</h3>
+			</div>
+		</section>
+
+		<section class="container">
+			<article class="designation">
+				<i class="fas fa-code"></i>
+				<h2 class="des-title">Web&nbsp;Development</h2>
+				<p>I beleive in converting users to customers. I like to code from scratch and enjoy bringing life in the browser.</p>
+				<h5>Languages I Speak:</h5>
+				<p><div>SQL</div> <div>NodeJs</div><div>Express.js</div></p>
+			</article>
+
+			<article class="designation">
+				<i class="fab fa-sketch"></i>
+				<h2 class="des-title">Web&nbsp;Designing</h2>
+				<p>I Value simple clean content, modern designs and simple content structure.</p>
+				<h5>Skills:</h5>
+				<p><div>HTML5</div><div>CSS3</div><div>JavaScript</div></p>
+
+			</article>
+
+			<article class="designation">				
+				<i class="fas fa-handshake"></i>
+				<h2 class="des-title">Consulting</h2>
+				<p>I love helping people, and help my fellow designers work on their craft.</p>
+				<h5>Experiences I take from:</h5>
+				<p><div>UX/UI</div> <div>Freelancing</div> <div>My projects</div></p>
+			</article>
+		</section>
+
+		<!-- PROJECTS SECTION -->
+<!--		<section class="projects section clearfix"> 	-->
+			<!-- Section Title --> 
+<!--			<div class="section-title">
+				<h2>My recent works</h2>
+				<div class="underline"></div>
+				<p class="projects-text">
+					Here are a few design projects I've worked on recently. Want to see more? <a href="mailto:pushpratan1@gmail.com"><span>Email me.</span></a>
+				</p>
+			</div>         -->
+		<!-- End of title -->
+<!--		<div class="section-center projects-center">			-->
+			<!-- Project -1 -->
+<!--			<a href="pushpratan.github.io/OnCalci" target="_blank" class="project-1">
+				<article class="project">
+					<img src="images/project-1.png" alt="Online Calculator" class="project-img">
+					<div class="project-info">
+						<h3>OnCalci</h3>
+						<h6>&gt; Self &lt;</h6>
+						<p>An online calculator showcasing my CSS skills</p>
+					</div>
+				</article>
+			</a>
+
+			<a href="codbaap.github.io" target="_blank" class="project-2">
+				<article class="project">
+					<img src="images/project-2.png" alt="Pushp-Bot" class="project-img">
+					<div class="project-info">
+						<h3>Pushp_Bot</h3>
+						<h6>&gt; Self &lt;</h6>
+						<p>A Web based Chat-bot as a demo portfolio</p>
+					</div>
+				</article>
+			</a>			
+		</div>		
+		</section>      -->
+		<!-- Project End --> 
+
+
+
+	<script>
+		const navBtn = document.getElementById("nav-btn");
+		const navbar = document.getElementById("navbar");
+		const navClose = document.getElementById("nav-close");
+
+		navBtn.addEventListener("click", () => {
+		  navbar.classList.add("showNav");
+		});
+
+		navClose.addEventListener("click", () => {
+		  navbar.classList.remove("showNav");
+		})
+	</script>
+
+	</body>
+</html>
