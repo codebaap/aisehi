@@ -6,7 +6,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	overflow: hidden;
 }
 
 :root {
@@ -171,8 +170,8 @@ h4{
 
 .hero{
 	min-height: 100vh;
-	min-width: 100vw;
-	background:url("images/mainx.png") center/cover repeat fixed;
+	width: 100vw;
+	background:url("images/mainx.png") center/cover no-repeat fixed;
 	position: relative;
 }
 
