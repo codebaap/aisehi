@@ -311,7 +311,7 @@ h4{
 /**** Head Complete ****/
 /**** Title Sectin ****/
 .diff-col{
-	width: 100vw;
+	width: 100%;
 	background:var(--clrdark);
 	/* height: 60%; */
 	display: block;
