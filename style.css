@@ -20,7 +20,9 @@
   --spacing: 0.25rem;
 }
 
-
+::-webkit-scrollbar {
+  width: 0;
+}
 
 body{
 	font-family: var(--fontreg);
